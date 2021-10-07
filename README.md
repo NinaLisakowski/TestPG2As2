@@ -26,6 +26,8 @@ Working in moist conditions.
 
 ### 1.2 CATASTROPHIC FAILURE
 Find a story where a software system defect had a bad outcome. Describe what happened. Can you identify a test that would have prevented it?
+- Nest thermostat had a software update which went wrong and left the users in a cold and freezing home. The batteries in the device became drained out which then led to the temperature dropping. The related issues were old air filters and incompatible boilers.
+- I would e.g. do some integration testing to see if the changes made are still able to work with the boilers and air filters.
 
 
 ## 3 INVESTIGATION OF TOOLS
